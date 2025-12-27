@@ -34,7 +34,10 @@ This project was built as a learning + portfolio project using **JavaScript and 
    ```bash
    git clone https://github.com/your-username/focus-todo-pomodoro.git
 
-   How It Works
+
+
+
+  HOW IT WORKS:
 
 The popup pages (popup.html, deleted.html) handle UI
 
