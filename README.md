@@ -15,9 +15,9 @@ This project was built as a learning + portfolio project using **JavaScript and 
 - 🎯 **Task-based Pomodoro**  
   (select a task → Pomodoro completes → task auto-completed)
 - 🔔 Sound notification when Pomodoro finishes
-- 💾 Persistent task storage using `chrome.storage`
-- 🧠 **Background timer** (continues even if popup closes or page changes)
-- 🎨 Clean, minimal UI with background image
+- Persistent task storage using `chrome.storage`
+- **Background timer** (continues even if popup closes or page changes)
+- Clean, minimal UI with background image
 
 ---
 
@@ -66,7 +66,7 @@ Desktop notifications
 Sync across devices
 
 
-## 📌 How to Use (Before Chrome Web Store Release)
+##  How to Use (Before Chrome Web Store Release)
 
 1. Download the project as ZIP from GitHub
 2. Extract the folder
