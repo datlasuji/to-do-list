@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const alarmSound = new Audio("alarm.mp3");
 
-  /* ================= MAIN PAGE ================= */
+ 
   if (isMainPage) {
 
     const input = document.getElementById("taskInput");
@@ -56,8 +56,7 @@ document.addEventListener("DOMContentLoaded", () => {
       });
     }
 
-    /* ================= TIMER (BACKGROUND) ================= */
-
+   
     let mode = "stopwatch";
     let seconds = 0;
 
@@ -136,7 +135,7 @@ document.addEventListener("DOMContentLoaded", () => {
     updateTime();
   }
 
-  /* ================= DELETED PAGE ================= */
+
   if (isDeletedPage) {
 
     const deletedList = document.getElementById("deletedList");
@@ -164,7 +163,6 @@ document.addEventListener("DOMContentLoaded", () => {
     };
   }
 
-  /* ================= STORAGE ================= */
 
   function loadData() {
     chrome.storage.local.get(["tasks", "deletedTasks"], (res) => {
