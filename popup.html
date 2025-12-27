@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>To Do</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+
+  <div class="card">
+
+    <h2>TO DO LIST</h2>
+
+    <!-- ADD TASK -->
+    <div class="input-box">
+      <input id="taskInput" placeholder="Add task">
+      <button id="addBtn">+</button>
+    </div>
+
+    <!-- TASK LIST -->
+    <ul id="taskList"></ul>
+
+    <!-- DELETED TASKS ICON -->
+    <div class="icon-bar">
+      <span id="openDeleted" title="Deleted Tasks">🗂️</span>
+    </div>
+
+    <!-- TIMER -->
+    <div class="timer-box">
+
+      <!-- MODE SWITCH -->
+      <div class="timer-mode">
+        <button id="stopwatchMode" class="active">Stopwatch</button>
+        <button id="pomodoroMode">Pomodoro</button>
+      </div>
+
+      <!-- TIME -->
+      <div id="time">00:00</div>
+
+      <!-- CONTROLS -->
+      <div class="timer-btns">
+        <button id="start">Start</button>
+        <button id="pause">Pause</button>
+        <button id="reset">Reset</button>
+      </div>
+
+    </div>
+
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

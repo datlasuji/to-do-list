@@ -1,0 +1,154 @@
+
+body {
+  width: 280px;
+  font-family: Arial, sans-serif;
+  background: url("bg.jpg") center/cover no-repeat;
+  padding: 10px;
+}
+
+/* CARD */
+.card {
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 25px;
+  padding: 15px;
+}
+
+/* HEADINGS */
+h2, h3 {
+  text-align: center;
+  margin: 6px 0;
+}
+
+/* INPUT */
+.input-box {
+  display: flex;
+  gap: 6px;
+}
+
+input {
+  flex: 1;
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+
+button {
+  padding: 6px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 4px 0;
+}
+
+
+.task-text {
+  flex: 1;
+}
+
+
+.delete-x {
+  cursor: pointer;
+  font-size: 16px;
+  color: #ff4d4d;
+  padding: 2px 6px;
+  border-radius: 50%;
+}
+
+.delete-x:hover {
+  background: rgba(255, 0, 0, 0.12);
+}
+
+
+.icon-bar {
+  text-align: right;
+  margin-top: 6px;
+}
+
+.icon-bar span {
+  font-size: 20px;
+  cursor: pointer;
+  padding: 6px;
+  border-radius: 50%;
+}
+
+.icon-bar span:hover {
+  background: rgba(0, 0, 0, 0.08);
+}
+
+
+/* TIMER CONTAINER */
+/* TIMER BOX */
+.timer-box {
+  background: #fff0f6;
+  border-radius: 22px;
+  padding: 12px;
+  margin-top: 12px;
+}
+
+/* MODE SWITCH */
+.timer-mode {
+  display: flex;
+  background: white;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.timer-mode button {
+  flex: 1;
+  border: none;
+  padding: 6px;
+  font-weight: bold;
+  cursor: pointer;
+  background: transparent;
+  color: #d63384;
+}
+
+.timer-mode button.active {
+  background: #d63384;
+  color: white;
+}
+
+/* TIME DISPLAY */
+#time {
+  text-align: center;
+  font-size: 28px;
+  font-weight: bold;
+  color: #d63384;
+  margin: 10px 0;
+  letter-spacing: 1px;
+}
+
+/* TIMER BUTTONS */
+.timer-btns {
+  display: flex;
+  gap: 6px;
+}
+
+.timer-btns button {
+  flex: 1;
+  background: white;
+  color: #d63384;
+  font-weight: bold;
+  border-radius: 14px;
+  transition: 0.2s;
+}
+
+.timer-btns button:hover {
+  background: #d63384;
+  color: white;
+}
