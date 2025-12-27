@@ -53,7 +53,7 @@ The popup is closed
 
 The user switches pages inside the extension
 
-Future Improvements
+FUTURE IMPROVEMENTS:
 
 Dark mode
 
